@@ -552,7 +552,14 @@ canvas {
 
     img {
         max-width: 100%;
+        transition: scale 100ms linear;
+        scale: 1;
+        z-index: 0;
     }
+}
+
+.webLink img:hover {
+    scale: 1.05;
 }
 
 .webLinkTitle {
@@ -560,6 +567,7 @@ canvas {
     flex: 0.2;
     position: absolute;
     background-color: white;
+    z-index: 999;
 
     div {
         font-size: 0.8em;
