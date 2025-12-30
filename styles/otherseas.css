@@ -207,10 +207,12 @@ ul {
     filter: drop-shadow(30px 10px 4px lightgray);
 }
 
+
 .shake:hover {
     transition: opacity 0.5s;
     animation: shake 0.5s;
     animation-iteration-count: infinite;
+    outline: none;
 }
 
 @keyframes shake {
